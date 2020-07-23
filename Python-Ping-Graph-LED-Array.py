@@ -1,5 +1,7 @@
-
 #!/usr/bin/env python
+
+# Using Raspberry Pi and Scroll pHAT HD to graph ping times.
+# Adjust MAX_VALUE to typical max ping time (ms).
 
 import time
 # import random
@@ -56,5 +58,3 @@ while True:
 
     scrollphathd.show()
     time.sleep(2.0)
-
-
